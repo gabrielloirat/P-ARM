@@ -197,13 +197,19 @@
     <comp lib="0" loc="(240,420)" name="Pin">
       <a name="label" val="CarryIn"/>
     </comp>
-    <comp lib="6" loc="(164,1290)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Note 2: assume that shift &gt; 0 for LSL and LSR"/>
+    <comp lib="3" loc="(400,200)" name="Adder">
+      <a name="width" val="32"/>
+      <a name="subtract" val="false"/>
     </comp>
-    <comp lib="6" loc="(87,1261)" name="Text">
-      <a name="font" val="SansSerif plain 12"/>
-      <a name="text" val="Note: for ROR, C = N"/>
+    <comp lib="1" loc="(600,200)" name="Multiplexer">
+      <a name="inputs" val="8"/>
+      <a name="width" val="32"/>
     </comp>
+    <comp lib="3" loc="(500,400)" name="Shift Register">
+      <a name="width" val="32"/>
+    </comp>
+    <wire from="(240,100)" to="(400,200)"/>
+    <wire from="(400,200)" to="(600,200)"/>
+    <wire from="(600,200)" to="(1120,280)"/>
   </circuit>
 </project>
