@@ -1846,7 +1846,6 @@
       <a name="label" val="A"/>
       <a name="width" val="32"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(160,260)" name="Pin">
 =======
     <comp lib="0" loc="(190,260)" name="Pin">
@@ -1855,7 +1854,6 @@
       <a name="label" val="B"/>
       <a name="width" val="32"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(370,340)" name="Constant">
       <a name="value" val="0x0"/>
       <a name="width" val="32"/>
@@ -1877,7 +1875,6 @@
       <a name="output" val="true"/>
       <a name="width" val="32"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(610,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -1896,7 +1893,6 @@
       <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(610,390)" name="Pin">
 =======
     <comp lib="0" loc="(490,390)" name="Pin">
@@ -1912,7 +1908,6 @@
       <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="1" loc="(230,140)" name="NOT Gate">
       <a name="width" val="32"/>
     </comp>
@@ -1970,7 +1965,6 @@
     <a name="circuit" val="ALU_MVN"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="0.25"/>
-<<<<<<< HEAD
     <comp lib="0" loc="(160,140)" name="Pin">
 =======
     <comp lib="0" loc="(220,220)" name="Pin">
@@ -1979,7 +1973,6 @@
       <a name="label" val="A"/>
       <a name="width" val="32"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(370,340)" name="Constant">
       <a name="value" val="0x0"/>
       <a name="width" val="32"/>
@@ -2001,7 +1994,6 @@
       <a name="output" val="true"/>
       <a name="width" val="32"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(610,280)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
@@ -2020,7 +2012,6 @@
       <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="0" loc="(610,390)" name="Pin">
 =======
     <comp lib="0" loc="(490,390)" name="Pin">
@@ -2036,7 +2027,6 @@
       <a name="label" val="C"/>
       <a name="output" val="true"/>
     </comp>
-<<<<<<< HEAD
     <comp lib="1" loc="(230,140)" name="NOT Gate">
       <a name="width" val="32"/>
     </comp>
