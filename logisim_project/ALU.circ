@@ -1958,6 +1958,7 @@
     <wire from="(470,450)" to="(490,450)"/>
     <wire from="(480,370)" to="(480,390)"/>
     <wire from="(480,390)" to="(490,390)"/>
+    </comp>
 >>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
   </circuit>
   <circuit name="ALU_MVN">
