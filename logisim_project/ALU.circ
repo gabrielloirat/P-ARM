@@ -1839,17 +1839,11 @@
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="0.25"/>
     <comp lib="0" loc="(160,140)" name="Pin">
-=======
-    <comp lib="0" loc="(190,140)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="classic"/>
       <a name="label" val="A"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(160,260)" name="Pin">
-=======
-    <comp lib="0" loc="(190,260)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="classic"/>
       <a name="label" val="B"/>
       <a name="width" val="32"/>
@@ -1862,13 +1856,6 @@
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(510,190)" name="Pin">
-=======
-    <comp lib="0" loc="(270,370)" name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(450,220)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
@@ -1882,27 +1869,12 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(610,330)" name="Pin">
-=======
-    <comp lib="0" loc="(470,450)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(490,360)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(610,390)" name="Pin">
-=======
-    <comp lib="0" loc="(490,390)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="N"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(490,450)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="C"/>
@@ -1936,30 +1908,6 @@
     <wire from="(500,390)" to="(610,390)"/>
     <wire from="(530,280)" to="(530,340)"/>
     <wire from="(530,280)" to="(610,280)"/>
-=======
-    <comp lib="1" loc="(280,220)" name="AND Gate">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="3" loc="(350,360)" name="Comparator">
-      <a name="width" val="32"/>
-    </comp>
-    <wire from="(190,140)" to="(200,140)"/>
-    <wire from="(190,260)" to="(230,260)"/>
-    <wire from="(200,140)" to="(200,200)"/>
-    <wire from="(200,200)" to="(230,200)"/>
-    <wire from="(230,240)" to="(230,260)"/>
-    <wire from="(270,370)" to="(310,370)"/>
-    <wire from="(280,220)" to="(290,220)"/>
-    <wire from="(290,220)" to="(290,350)"/>
-    <wire from="(290,220)" to="(450,220)"/>
-    <wire from="(290,350)" to="(310,350)"/>
-    <wire from="(350,360)" to="(490,360)"/>
-    <wire from="(350,370)" to="(480,370)"/>
-    <wire from="(470,450)" to="(490,450)"/>
-    <wire from="(480,370)" to="(480,390)"/>
-    <wire from="(480,390)" to="(490,390)"/>
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
-    </comp>
   </circuit>
   <circuit name="ALU_MVN">
     <a name="appearance" val="logisim_evolution"/>
@@ -1967,9 +1915,6 @@
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="0.25"/>
     <comp lib="0" loc="(160,140)" name="Pin">
-=======
-    <comp lib="0" loc="(220,220)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="classic"/>
       <a name="label" val="A"/>
       <a name="width" val="32"/>
@@ -1982,13 +1927,6 @@
       <a name="value" val="0x0"/>
     </comp>
     <comp lib="0" loc="(510,190)" name="Pin">
-=======
-    <comp lib="0" loc="(270,370)" name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(450,220)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="S"/>
@@ -2002,27 +1940,12 @@
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(610,330)" name="Pin">
-=======
-    <comp lib="0" loc="(470,450)" name="Constant">
-      <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="0" loc="(490,360)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="Z"/>
       <a name="output" val="true"/>
     </comp>
     <comp lib="0" loc="(610,390)" name="Pin">
-=======
-    <comp lib="0" loc="(490,390)" name="Pin">
-      <a name="appearance" val="NewPins"/>
-      <a name="facing" val="west"/>
-      <a name="label" val="N"/>
-      <a name="output" val="true"/>
-    </comp>
-    <comp lib="0" loc="(490,450)" name="Pin">
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="C"/>
@@ -2051,24 +1974,5 @@
     <wire from="(500,390)" to="(610,390)"/>
     <wire from="(530,280)" to="(530,340)"/>
     <wire from="(530,280)" to="(610,280)"/>
-=======
-    <comp lib="1" loc="(280,220)" name="NOT Gate">
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="3" loc="(350,360)" name="Comparator">
-      <a name="width" val="32"/>
-    </comp>
-    <wire from="(220,220)" to="(250,220)"/>
-    <wire from="(270,370)" to="(310,370)"/>
-    <wire from="(280,220)" to="(290,220)"/>
-    <wire from="(290,220)" to="(290,350)"/>
-    <wire from="(290,220)" to="(450,220)"/>
-    <wire from="(290,350)" to="(310,350)"/>
-    <wire from="(350,360)" to="(490,360)"/>
-    <wire from="(350,370)" to="(480,370)"/>
-    <wire from="(470,450)" to="(490,450)"/>
-    <wire from="(480,370)" to="(480,390)"/>
-    <wire from="(480,390)" to="(490,390)"/>
->>>>>>> cbf6a50d9d6ce8aac6c391b020b4168be0ce4cd8
   </circuit>
 </project>
