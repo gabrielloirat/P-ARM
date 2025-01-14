@@ -1838,7 +1838,6 @@
     <a name="circuit" val="ALU_BIC"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="0.25"/>
-<<<<<<< HEAD
     <comp lib="0" loc="(160,140)" name="Pin">
 =======
     <comp lib="0" loc="(190,140)" name="Pin">
