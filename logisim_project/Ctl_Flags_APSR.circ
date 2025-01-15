@@ -171,28 +171,83 @@ end TCL_Generic;
       <a name="label" val="Update_Mask"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="0" loc="(560,100)" name="Pin">
+    <comp lib="0" loc="(290,110)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(360,60)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(660,110)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(780,110)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="west"/>
       <a name="label" val="Flags_Out"/>
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
-    <comp lib="2" loc="(400,80)" name="Multiplexer">
-      <a name="width" val="4"/>
+    <comp lib="4" loc="(420,140)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="width" val="1"/>
     </comp>
-    <wire from="(210,100)" to="(340,100)"/>
-    <wire from="(210,180)" to="(370,180)"/>
-    <wire from="(210,60)" to="(320,60)"/>
-    <wire from="(320,60)" to="(320,70)"/>
-    <wire from="(320,70)" to="(370,70)"/>
-    <wire from="(340,90)" to="(340,100)"/>
-    <wire from="(340,90)" to="(370,90)"/>
-    <wire from="(370,110)" to="(370,180)"/>
-    <wire from="(370,110)" to="(380,110)"/>
-    <wire from="(380,100)" to="(380,110)"/>
-    <wire from="(400,80)" to="(410,80)"/>
-    <wire from="(410,100)" to="(560,100)"/>
-    <wire from="(410,80)" to="(410,100)"/>
+    <comp lib="4" loc="(420,240)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="4" loc="(420,340)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="width" val="1"/>
+    </comp>
+    <comp lib="4" loc="(420,460)" name="Register">
+      <a name="appearance" val="logisim_evolution"/>
+      <a name="width" val="1"/>
+    </comp>
+    <wire from="(210,100)" to="(290,100)"/>
+    <wire from="(210,140)" to="(270,140)"/>
+    <wire from="(210,60)" to="(360,60)"/>
+    <wire from="(270,140)" to="(270,210)"/>
+    <wire from="(270,210)" to="(270,310)"/>
+    <wire from="(270,210)" to="(420,210)"/>
+    <wire from="(270,310)" to="(270,410)"/>
+    <wire from="(270,310)" to="(420,310)"/>
+    <wire from="(270,410)" to="(270,530)"/>
+    <wire from="(270,410)" to="(420,410)"/>
+    <wire from="(270,530)" to="(420,530)"/>
+    <wire from="(290,100)" to="(290,110)"/>
+    <wire from="(300,130)" to="(300,510)"/>
+    <wire from="(300,510)" to="(420,510)"/>
+    <wire from="(310,130)" to="(310,390)"/>
+    <wire from="(310,390)" to="(420,390)"/>
+    <wire from="(320,130)" to="(320,290)"/>
+    <wire from="(320,290)" to="(420,290)"/>
+    <wire from="(330,130)" to="(330,190)"/>
+    <wire from="(330,190)" to="(420,190)"/>
+    <wire from="(370,490)" to="(420,490)"/>
+    <wire from="(370,80)" to="(370,490)"/>
+    <wire from="(380,370)" to="(420,370)"/>
+    <wire from="(380,80)" to="(380,370)"/>
+    <wire from="(390,270)" to="(420,270)"/>
+    <wire from="(390,80)" to="(390,270)"/>
+    <wire from="(400,170)" to="(420,170)"/>
+    <wire from="(400,80)" to="(400,170)"/>
+    <wire from="(480,170)" to="(590,170)"/>
+    <wire from="(480,270)" to="(600,270)"/>
+    <wire from="(480,370)" to="(620,370)"/>
+    <wire from="(480,490)" to="(640,490)"/>
+    <wire from="(590,120)" to="(590,170)"/>
+    <wire from="(590,120)" to="(640,120)"/>
+    <wire from="(600,130)" to="(600,270)"/>
+    <wire from="(600,130)" to="(640,130)"/>
+    <wire from="(620,140)" to="(620,370)"/>
+    <wire from="(620,140)" to="(640,140)"/>
+    <wire from="(640,150)" to="(640,490)"/>
+    <wire from="(660,110)" to="(780,110)"/>
   </circuit>
 </project>
