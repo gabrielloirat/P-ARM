@@ -203,6 +203,10 @@ end TCL_Generic;
       <a name="label" val="Instruction"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="0" loc="(170,550)" name="Constant"/>
+    <comp lib="0" loc="(210,590)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="0" loc="(230,320)" name="Pin">
       <a name="appearance" val="classic"/>
       <a name="facing" val="north"/>
@@ -262,22 +266,33 @@ end TCL_Generic;
       <a name="output" val="true"/>
       <a name="width" val="4"/>
     </comp>
+    <comp lib="0" loc="(690,450)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
     <comp lib="2" loc="(250,210)" name="Multiplexer">
       <a name="width" val="16"/>
     </comp>
-    <comp lib="8" loc="(170,535)" name="Text">
+    <comp lib="2" loc="(290,550)" name="Multiplexer">
+      <a name="select" val="4"/>
+    </comp>
+    <comp lib="2" loc="(290,770)" name="Multiplexer">
+      <a name="select" val="4"/>
+    </comp>
+    <comp lib="8" loc="(159,1133)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Note 2: RSB instruction has Rn as 1st operand."/>
     </comp>
-    <comp lib="8" loc="(270,555)" name="Text">
+    <comp lib="8" loc="(259,1153)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="MUL instruction has Rn as 1st operand and Rdm as 2nd operand"/>
     </comp>
-    <comp lib="8" loc="(325,575)" name="Text">
+    <comp lib="8" loc="(314,1173)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="For simplification purposes, Rm is used for 1st operand both here and in the ALU."/>
     </comp>
-    <comp lib="8" loc="(470,515)" name="Text">
+    <comp lib="8" loc="(459,1113)" name="Text">
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Note: instructions that does not save the result will still have the second operand as the destination register, the ALU will copy the second register to the destination register"/>
     </comp>
@@ -287,18 +302,111 @@ end TCL_Generic;
     </comp>
     <wire from="(120,100)" to="(200,100)"/>
     <wire from="(170,220)" to="(220,220)"/>
+    <wire from="(170,550)" to="(190,550)"/>
+    <wire from="(190,470)" to="(190,550)"/>
+    <wire from="(190,470)" to="(200,470)"/>
+    <wire from="(190,550)" to="(190,600)"/>
+    <wire from="(190,600)" to="(190,730)"/>
+    <wire from="(190,600)" to="(230,600)"/>
+    <wire from="(190,730)" to="(190,770)"/>
+    <wire from="(190,730)" to="(240,730)"/>
+    <wire from="(190,770)" to="(240,770)"/>
     <wire from="(200,100)" to="(200,200)"/>
     <wire from="(200,200)" to="(220,200)"/>
+    <wire from="(200,440)" to="(200,470)"/>
+    <wire from="(200,440)" to="(640,440)"/>
+    <wire from="(200,470)" to="(230,470)"/>
+    <wire from="(210,590)" to="(220,590)"/>
+    <wire from="(220,590)" to="(220,690)"/>
+    <wire from="(220,590)" to="(250,590)"/>
+    <wire from="(220,690)" to="(220,800)"/>
+    <wire from="(220,690)" to="(230,690)"/>
+    <wire from="(220,800)" to="(240,800)"/>
     <wire from="(230,230)" to="(230,320)"/>
+    <wire from="(230,470)" to="(230,480)"/>
+    <wire from="(230,470)" to="(250,470)"/>
+    <wire from="(230,480)" to="(230,490)"/>
+    <wire from="(230,480)" to="(250,480)"/>
+    <wire from="(230,490)" to="(230,500)"/>
+    <wire from="(230,490)" to="(250,490)"/>
+    <wire from="(230,500)" to="(230,510)"/>
+    <wire from="(230,500)" to="(250,500)"/>
+    <wire from="(230,510)" to="(230,520)"/>
+    <wire from="(230,510)" to="(250,510)"/>
+    <wire from="(230,520)" to="(230,530)"/>
+    <wire from="(230,520)" to="(250,520)"/>
+    <wire from="(230,530)" to="(230,540)"/>
+    <wire from="(230,530)" to="(250,530)"/>
+    <wire from="(230,540)" to="(230,550)"/>
+    <wire from="(230,540)" to="(250,540)"/>
+    <wire from="(230,550)" to="(230,560)"/>
+    <wire from="(230,550)" to="(250,550)"/>
+    <wire from="(230,560)" to="(230,570)"/>
+    <wire from="(230,560)" to="(250,560)"/>
+    <wire from="(230,570)" to="(230,580)"/>
+    <wire from="(230,570)" to="(250,570)"/>
+    <wire from="(230,580)" to="(250,580)"/>
+    <wire from="(230,600)" to="(230,610)"/>
+    <wire from="(230,600)" to="(250,600)"/>
+    <wire from="(230,610)" to="(230,620)"/>
+    <wire from="(230,610)" to="(250,610)"/>
+    <wire from="(230,620)" to="(250,620)"/>
+    <wire from="(230,690)" to="(230,750)"/>
+    <wire from="(230,690)" to="(240,690)"/>
+    <wire from="(230,750)" to="(240,750)"/>
+    <wire from="(240,690)" to="(240,700)"/>
+    <wire from="(240,690)" to="(250,690)"/>
+    <wire from="(240,700)" to="(240,710)"/>
+    <wire from="(240,700)" to="(250,700)"/>
+    <wire from="(240,710)" to="(240,720)"/>
+    <wire from="(240,710)" to="(250,710)"/>
+    <wire from="(240,720)" to="(250,720)"/>
+    <wire from="(240,730)" to="(240,740)"/>
+    <wire from="(240,730)" to="(250,730)"/>
+    <wire from="(240,740)" to="(250,740)"/>
+    <wire from="(240,750)" to="(240,760)"/>
+    <wire from="(240,750)" to="(250,750)"/>
+    <wire from="(240,760)" to="(250,760)"/>
+    <wire from="(240,770)" to="(240,780)"/>
+    <wire from="(240,770)" to="(250,770)"/>
+    <wire from="(240,780)" to="(240,790)"/>
+    <wire from="(240,780)" to="(250,780)"/>
+    <wire from="(240,790)" to="(250,790)"/>
+    <wire from="(240,800)" to="(240,810)"/>
+    <wire from="(240,800)" to="(250,800)"/>
+    <wire from="(240,810)" to="(240,820)"/>
+    <wire from="(240,810)" to="(250,810)"/>
+    <wire from="(240,820)" to="(240,830)"/>
+    <wire from="(240,820)" to="(250,820)"/>
+    <wire from="(240,830)" to="(240,840)"/>
+    <wire from="(240,830)" to="(250,830)"/>
+    <wire from="(240,840)" to="(250,840)"/>
     <wire from="(250,210)" to="(310,210)"/>
+    <wire from="(270,630)" to="(270,660)"/>
+    <wire from="(270,660)" to="(330,660)"/>
+    <wire from="(270,850)" to="(270,870)"/>
+    <wire from="(270,870)" to="(330,870)"/>
+    <wire from="(290,550)" to="(410,550)"/>
+    <wire from="(290,770)" to="(430,770)"/>
     <wire from="(330,180)" to="(630,180)"/>
-    <wire from="(330,190)" to="(610,190)"/>
+    <wire from="(330,190)" to="(350,190)"/>
     <wire from="(330,200)" to="(330,360)"/>
+    <wire from="(330,360)" to="(330,660)"/>
     <wire from="(330,360)" to="(690,360)"/>
-    <wire from="(610,190)" to="(610,300)"/>
-    <wire from="(610,300)" to="(690,300)"/>
+    <wire from="(330,660)" to="(330,870)"/>
+    <wire from="(350,190)" to="(350,300)"/>
+    <wire from="(350,300)" to="(690,300)"/>
+    <wire from="(410,470)" to="(410,550)"/>
+    <wire from="(410,470)" to="(670,470)"/>
+    <wire from="(430,460)" to="(430,770)"/>
+    <wire from="(430,460)" to="(670,460)"/>
     <wire from="(630,180)" to="(630,240)"/>
     <wire from="(630,180)" to="(690,180)"/>
     <wire from="(630,240)" to="(690,240)"/>
+    <wire from="(640,440)" to="(640,490)"/>
+    <wire from="(640,490)" to="(660,490)"/>
+    <wire from="(660,480)" to="(660,490)"/>
+    <wire from="(660,480)" to="(670,480)"/>
+    <wire from="(660,490)" to="(670,490)"/>
   </circuit>
 </project>
