@@ -286,7 +286,7 @@ end TCL_Generic;
     <comp lib="2" loc="(310,90)" name="Multiplexer">
       <a name="width" val="16"/>
     </comp>
-    <comp lib="3" loc="(450,290)" name="Divider"/>
+    <comp lib="3" loc="(450,290)" name="Multiplier"/>
     <comp lib="3" loc="(450,360)" name="Adder">
       <a name="width" val="32"/>
     </comp>
