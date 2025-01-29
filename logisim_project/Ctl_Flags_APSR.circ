@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="3.8.0" version="1.0">
-  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+<project source="3.9.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.9.0(https://github.com/logisim-evolution/).
 
   <lib desc="#Wiring" name="0">
     <tool name="Splitter">
@@ -153,9 +153,9 @@ end TCL_Generic;
     <a name="appearance" val="logisim_evolution"/>
     <a name="circuit" val="Flags_APSR"/>
     <a name="simulationFrequency" val="0.25"/>
-    <comp lib="0" loc="(210,100)" name="Pin">
+    <comp lib="0" loc="(210,110)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="label" val="Flags_In"/>
+      <a name="label" val="Update_Mask"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(210,140)" name="Pin">
@@ -168,7 +168,7 @@ end TCL_Generic;
     </comp>
     <comp lib="0" loc="(210,60)" name="Pin">
       <a name="appearance" val="classic"/>
-      <a name="label" val="Update_Mask"/>
+      <a name="label" val="Flags_In"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(290,110)" name="Splitter">
@@ -209,9 +209,18 @@ end TCL_Generic;
       <a name="appearance" val="logisim_evolution"/>
       <a name="width" val="1"/>
     </comp>
-    <wire from="(210,100)" to="(290,100)"/>
+    <wire from="(210,110)" to="(290,110)"/>
     <wire from="(210,140)" to="(270,140)"/>
+    <wire from="(210,180)" to="(230,180)"/>
     <wire from="(210,60)" to="(360,60)"/>
+    <wire from="(230,180)" to="(230,230)"/>
+    <wire from="(230,230)" to="(230,330)"/>
+    <wire from="(230,230)" to="(450,230)"/>
+    <wire from="(230,330)" to="(230,430)"/>
+    <wire from="(230,330)" to="(450,330)"/>
+    <wire from="(230,430)" to="(230,550)"/>
+    <wire from="(230,430)" to="(450,430)"/>
+    <wire from="(230,550)" to="(450,550)"/>
     <wire from="(270,140)" to="(270,210)"/>
     <wire from="(270,210)" to="(270,310)"/>
     <wire from="(270,210)" to="(420,210)"/>
@@ -220,7 +229,6 @@ end TCL_Generic;
     <wire from="(270,410)" to="(270,530)"/>
     <wire from="(270,410)" to="(420,410)"/>
     <wire from="(270,530)" to="(420,530)"/>
-    <wire from="(290,100)" to="(290,110)"/>
     <wire from="(300,130)" to="(300,510)"/>
     <wire from="(300,510)" to="(420,510)"/>
     <wire from="(310,130)" to="(310,390)"/>
