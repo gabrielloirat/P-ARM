@@ -1,7 +1,7 @@
-alu			GABRIEL		
+alu			ALEX		
 conditionnal		TOM
 data processing		ALEX			
-opcode			ALEX
+opcode			GABRIEL
 load store		ALEX
 shift add sub mov	THOMAS
 sp address		TOM
