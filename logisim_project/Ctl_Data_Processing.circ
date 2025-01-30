@@ -305,12 +305,6 @@ end TCL_Generic;
       <a name="output" val="true"/>
       <a name="width" val="3"/>
     </comp>
-    <comp lib="0" loc="(960,280)" name="Tunnel">
-      <a name="label" val="Reverse"/>
-    </comp>
-    <comp lib="0" loc="(960,280)" name="Tunnel">
-      <a name="label" val="Reverse"/>
-    </comp>
     <comp lib="0" loc="(990,780)" name="Tunnel">
       <a name="label" val="Reverse"/>
     </comp>
