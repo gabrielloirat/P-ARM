@@ -1,9 +1,0 @@
-alu			ALEX		
-conditionnal		TOM
-data processing		ALEX			
-opcode			GABRIEL
-load store		ALEX
-shift add sub mov	GABRIEL
-sp address		TOM
-code asm		THOMAS
-tests unitaires 	GABRIEL
