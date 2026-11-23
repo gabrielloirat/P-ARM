@@ -1,2 +1,1 @@
-# Phamtom-eagle
-Le projet ARM consiste à créer un microprocesseur à l'aide de logisim.
+# Le projet ARM consiste à créer un microprocesseur à l'aide de logisim.
